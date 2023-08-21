@@ -1,0 +1,31 @@
+@import url('../abstract/variables.css');
+
+.nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-roboto);
+    z-index: 1;
+}
+
+.nav-container{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav-menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+.board{
+    height: 100dvh;
+}
+
+.board-pixels {
+    display: grid;
+    grid-template-columns: repeat(100, 1px); /* Adjust as needed */
+    grid-template-rows: repeat(100, 1px); /* Adjust as needed */
+    scale: 5;
+  }
+  
+  .board-cell {
+    width: 1px; /* Adjust as needed */
+    height: 1px; /* Adjust as needed */
+    background-color: white;
+  }
+  
+  .board-cell.active {
+    background-color: green;
+  }
+  .board-cell:hover{
+    background-color: red;
+  }
